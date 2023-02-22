@@ -74,15 +74,16 @@ body{
 
     /* NAV */
     .container{
-        max-width: 900px;
+        max-width: 1200px;
         margin: auto;
         width: 100%;
         padding-left: 15px;
         padding-right: 15px;
+    
     }
 
     .navbar{
-        position: absolute;
+        position: fixed;
         z-index: 500;
         left: 0;
         top: 0;
@@ -104,4 +105,25 @@ body{
         color: coral;
     }
 
+    .navbar__nav{
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+    }
+    li{
+        display: inline-block;
+        
+    }
+    a{
+        padding: 7px;
+        color: aliceblue;
+        opacity: 0.7;
+        text-decoration: none;
+        font-weight: 400;
+        transition: all .09s ease-out;
+        font-size: 25px;
+    }
+    a:hover{
+        opacity: 1;
+    }
     
