@@ -70,3 +70,38 @@ body{
         box-shadow: 0 5px 10px rgba(255, 127, 80, .8);
         transform: scale(1.05);
     }
+
+
+    /* NAV */
+    .container{
+        max-width: 900px;
+        margin: auto;
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .navbar{
+        position: absolute;
+        z-index: 500;
+        left: 0;
+        top: 0;
+        width: 100%;
+        background-color: #1c1c1c;
+        height: 70px;
+        display: flex;
+        align-items: center;
+    }
+
+    .navbar__brand{
+        text-decoration: none;
+        color: aliceblue;
+        font-weight: 700;
+        font-size: 2rem;
+    }
+
+    .navbar__brand:hover{
+        color: coral;
+    }
+
+    
