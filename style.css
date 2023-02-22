@@ -1,0 +1,19 @@
+body{
+    position: relative;
+    font-family: 'Noto Sans'  , sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+    color: #000;
+    min-width: 320px;
+    overflow-x: hidden;
+    height: 700vh;
+}
+
+.header{
+    position: relative; /* to darken only the image and not the entire page */
+    min-height: 1200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
